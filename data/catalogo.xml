@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fecha="2026-09-20" xsi:noNamespaceSchemaLocation="catalogo.xsd">
+  <categorias>
+    <categoria id="tecnologia">Tecnología</categoria>
+    <categoria id="hogar">Hogar</categoria>
+    <categoria id="ropa">Ropa</categoria>
+    <categoria id="videojuegos">Videojuegos</categoria>
+    <categoria id="libros">Libros</categoria>
+    <categoria id="automoviles">Automóviles</categoria>
+  </categorias>
+  <productos>
+    <producto categoria="tecnologia" id="TEC-001">
+      <nombre>Auriculares Nova Air</nombre>
+      <descripcion>Cancelación de ruido y batería de 30 horas.</descripcion>
+      <precio moneda="MXN">899</precio>
+      <vendedor>AudioLab MX</vendedor>
+      <stock>24</stock>
+    </producto>
+    <producto categoria="tecnologia" id="TEC-002">
+      <nombre>Teclado mecánico Aura</nombre>
+      <descripcion>Switches táctiles, iluminación RGB y conexión USB-C.</descripcion>
+      <precio moneda="MXN">1249</precio>
+      <vendedor>Pixel Store</vendedor>
+      <stock>12</stock>
+    </producto>
+    <producto categoria="hogar" id="HOG-001">
+      <nombre>Lámpara Nórdica Luma</nombre>
+      <descripcion>Lámpara de mesa con acabado de madera natural.</descripcion>
+      <precio moneda="MXN">649</precio>
+      <vendedor>Casa Forma</vendedor>
+      <stock>18</stock>
+    </producto>
+    <producto categoria="ropa" id="ROP-001">
+      <nombre>Sudadera Essential</nombre>
+      <descripcion>Algodón suave, corte unisex y color verde bosque.</descripcion>
+      <precio moneda="MXN">799</precio>
+      <vendedor>Hilo Norte</vendedor>
+      <stock>30</stock>
+    </producto>
+    <producto categoria="videojuegos" id="VID-001">
+      <nombre>Control inalámbrico Pulse</nombre>
+      <descripcion>Compatible con PC y consolas de nueva generación.</descripcion>
+      <precio moneda="MXN">1399</precio>
+      <vendedor>Game Hub</vendedor>
+      <stock>9</stock>
+    </producto>
+    <producto categoria="libros" id="LIB-001">
+      <nombre>Diseño de sistemas</nombre>
+      <descripcion>Guía práctica de arquitectura y pensamiento digital.</descripcion>
+      <precio moneda="MXN">420</precio>
+      <vendedor>Papel &amp; Tinta</vendedor>
+      <stock>15</stock>
+    </producto>
+  <producto categoria="tecnología" icono="&#128230;" id="USR-1789963727838"><nombre>Teclado ROG</nombre><descripcion>Teclado gaming RGB</descripcion><precio moneda="MXN">1399</precio><vendedor>ROG</vendedor><stock>10</stock></producto><producto categoria="tecnología" icono="&#128230;" id="USR-1791751330237"><nombre>soporte con ventilador</nombre><descripcion>soporte con ventilador para laptop</descripcion><precio moneda="MXN">789</precio><vendedor>tecnoex</vendedor><stock>10</stock></producto></productos>
+</catalogo>

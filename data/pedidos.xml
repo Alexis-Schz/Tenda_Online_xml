@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pedidos.xsd">
+  <pedido id="PED-DEMO-001" fecha="2026-09-20" estado="Pendiente">
+    <comprador id="COM-001">
+      <nombre>Comprador de demostración</nombre>
+    </comprador>
+    <items>
+      <item producto="TEC-001" cantidad="1" precio="899" />
+    </items>
+    <total moneda="MXN">899</total>
+  </pedido>
+</pedidos>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="catalogo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="categorias">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="categoria" maxOccurs="unbounded">
+                <xs:complexType mixed="true">
+                  <xs:attribute name="id" use="required" type="xs:ID" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="productos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="producto" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nombre" type="xs:string" />
+                    <xs:element name="descripcion" type="xs:string" />
+                    <xs:element name="precio">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:decimal">
+                            <xs:attribute name="moneda" use="required" type="xs:string" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="vendedor" type="xs:string" />
+                    <xs:element name="stock" type="xs:nonNegativeInteger" />
+                  </xs:sequence>
+                  <xs:attribute name="id" use="required" type="xs:ID" />
+                  <xs:attribute name="categoria" use="required" type="xs:string" />
+                  <xs:attribute name="icono" use="optional" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="fecha" use="required" type="xs:date" />
+      <xs:anyAttribute processContents="lax" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

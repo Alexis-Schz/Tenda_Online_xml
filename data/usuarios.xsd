@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:element name="usuarios"><xs:complexType><xs:sequence><xs:element name="usuario" maxOccurs="unbounded"><xs:complexType><xs:sequence><xs:element name="nombre" type="xs:string"/><xs:element name="correo" type="xs:string"/></xs:sequence><xs:attribute name="id" use="required" type="xs:ID"/><xs:attribute name="tipo" use="required" type="xs:string"/></xs:complexType></xs:element></xs:sequence><xs:anyAttribute processContents="lax"/></xs:complexType></xs:element></xs:schema>

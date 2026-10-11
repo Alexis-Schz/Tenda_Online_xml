@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="usuarios.xsd">
+  <usuario id="COM-001" tipo="comprador"><nombre>Comprador de demostración</nombre><correo>comprador@nexomarket.test</correo></usuario>
+  <usuario id="VEN-001" tipo="vendedor"><nombre>Vendedor de demostración</nombre><correo>vendedor@nexomarket.test</correo></usuario>
+  <usuario id="ADM-001" tipo="administrador"><nombre>Administrador de demostración</nombre><correo>admin@nexomarket.test</correo></usuario>
+</usuarios>

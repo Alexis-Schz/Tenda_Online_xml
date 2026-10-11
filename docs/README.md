@@ -1,4 +1,4 @@
-# NexoMarket
+# Tienda Oline
 
 Proyecto académico de una tienda en línea tipo marketplace, desarrollado para practicar XML, XSD, XSLT, XPath y XQuery.
 
